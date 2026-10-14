@@ -1,0 +1,60 @@
+/* AI-generated CSS styling for cart items */
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* AI-generated CSS styling for cart item images */
+  .cart-item-image {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .cart-item-info {
+    flex: 1;
+  }
+  
+  .cart-item-info h3 {
+    margin: 0 0 5px;
+    font-size: 17px;
+    color: #111827;
+  }
+  
+  .cart-item-info p {
+    margin: 0;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  /* AI-generated CSS styling for the remove button */
+  .remove-cart-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc2626;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .remove-cart-button:hover {
+    background-color: #b91c1c;
+  }
+  
+  @media (max-width: 600px) {
+    .cart-item {
+      flex-wrap: wrap;
+    }
+  
+    .remove-cart-button {
+      width: 100%;
+    }
+  }
